@@ -10,10 +10,11 @@ p{
      }
      
  #navbar{
+    
          font-family:'Ranchers', cursive;
          font-weight: bold;
          font-size:30px;
-         color: mintcream;
+         
      }
 
 *{
@@ -21,4 +22,6 @@ p{
     padding:0;
     background-color:#8a9e8d;
 }
+
+
 
