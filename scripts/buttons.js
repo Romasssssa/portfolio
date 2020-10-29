@@ -16,25 +16,36 @@ function greet(){
   }
 
   function func3(){
-    alert(" all my other assignments will be here soon!!");
+    alert("all my other assignments will be here soon!!");
   }
 
   function func4(){
+    alert("all my other assignments will be here soon!!");
+  }
+
+
+  function func5(){
     alert(" all my other assignments will be here soon!!");
   }
 
-  function func5(){
-    alert("have a couple questions here");
-  }
-
   function func6(){
-    alert(" question 1");
+    alert(" all my other assignments will be here soon!!");
   }
 
   function func7(){
-    alert(" question 1");
+    alert(" all my other assignments will be here soon");
   }
 
   function func8(){
-    alert(" question 1");
+    alert(" all my other assignments will be here soon!!");
   }
+
+  function func9(){
+    alert(" all my other assignments will be here soon");
+  }
+
+  function func10(){
+    alert("give some feedback");
+  }
+
+  

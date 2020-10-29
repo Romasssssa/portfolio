@@ -24,4 +24,14 @@ p{
 }
 
 
+.buttons{
+
+    font-family: 'Henny Penny', cursive;
+    color:#b42785;
+    font-size:28px;
+    border:4px solid rgb(65,65,65);
+    background-color: rgb(49, 212, 172);
+    cursor:pointer;
+    
+}
 
