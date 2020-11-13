@@ -56,7 +56,7 @@ let firstletter= " ";
 plaintext = plaintext.split(" ");
 for (let i = 0 ; i< plaintext.length; i = i + 1){ //this is the loop
  firstletter=(plaintext[i][0]).repeat(3); // how many times i want the phrase to repeat
-  ciphertext += "oogey" + (plaintext[i]).slice(0) + firstletter + "YOLO "; // how the encryption format is
+  ciphertext += "oogey" + (plaintext[i]).slice(0) + firstletter +  "YOLO "; // how the encryption format is
 }
 document.getElementById("encrypted").innerHTML=ciphertext;
 
@@ -69,7 +69,7 @@ alert("here is your encrypted message  " + ciphertext) // what the user will rec
    let plaintext = "";
   ciphertext = ciphertext.split(" ");
   for (let i = 0 ; i < ciphertext.length; i = i + 1){ // the decryption loop
-    plaintext += (ciphertext[i]).slice(5,-7);
+    plaintext += (ciphertext[i]).slice(5,-7) + ' ';
 
   }
   document.getElementById("decrypted").innerHTML=plaintext;
